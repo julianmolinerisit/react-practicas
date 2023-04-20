@@ -1,0 +1,30 @@
+1. Instslar node.js
+2. Abrimos la cmd: 
+
+node -- version
+
+Si sale la version ya esta instalado correctamente.
+
+Instalamos material icons theme en visual studio para hacer mas faciles de ver los iconos.
+
+
+1. Damos cmd en la carpeta a trabajar:
+
+npx create-react-app nombre-del-proyecto 
+
+o podemos usar:
+ 
+npx create-react-app nombre-del-proyecto --template typescript 
+
+para typescript y en unos instantes tendremos un entorno de desarrollo totalmente configurado para comenzar a trabajar.
+
+2.Ejecutamos 
+
+npm start
+
+En la carpeta del proyecto para lanzarlo. 
+
+3. Cuando terminamos de desarrollar el proyecto, para subirlo a produccion (es decir dejarlo listo para subir a internet3   ) usamos 
+
+4.
+5.
