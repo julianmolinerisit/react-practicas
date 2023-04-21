@@ -24,7 +24,9 @@ npm start
 
 En la carpeta del proyecto para lanzarlo. 
 
-3. Cuando terminamos de desarrollar el proyecto, para subirlo a produccion (es decir dejarlo listo para subir a internet3   ) usamos 
+3. Cuando terminamos de desarrollar el proyecto, para subirlo a produccion (es decir dejarlo listo para subir a internet) usamos:
+
+npm run build 
 
 4.
 5.
