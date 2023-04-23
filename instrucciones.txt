@@ -30,3 +30,54 @@ npm run build
 
 4.
 5.
+
+Para agregar un modulo de otro documento tenemos dos maneras, la primera es hacerlo de manera espacifica:
+Importando una por una las funciones y los modulos con: 
+
+import { Greeting, UserCard } from './Greeting'
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+root.render(
+    <div>
+        <Greeting/>
+        <UserCard/>
+
+    </div>
+) 
+
+Y en el documento Greeting.js:
+
+export function Greeting() {
+        return <h1>{10 + 30}</h1>
+}
+
+export function UserCard() {
+        return <h1>¿Hola como estas?</h1>
+}
+
+
+Y la segunda, es importar todo globalmente
+
+import Product from './product'
+import Producto from './product'
+const root = ReactDOM.createRoot(document.getElementById('root'))
+
+root.render(
+    <div>
+        <Product/>
+        <Producto/>
+    </div>
+) 
+
+Y en el documento Product.js:
+
+function Product() {
+    return <h1>Producto</h1>
+}
+
+function Producto() {
+    return <h1>Producto</h1>
+}
+
+export default Product
