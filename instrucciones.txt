@@ -81,3 +81,15 @@ function Producto() {
 }
 
 export default Product
+
+
+
+
+Los props son parametros que le damos a la funcion.
+
+Si seleccionamos una etiqueta que se repite varias veces con ctrl + d podemos seleccionar todas las 
+etiquetas iguales.
+
+
+
+Con ctrl + c se cierra la ejecucion del programa correctamente. Luego se ejecuta con npm start
